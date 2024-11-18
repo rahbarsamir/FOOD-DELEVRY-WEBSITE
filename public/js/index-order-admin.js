@@ -80,7 +80,7 @@ const complete=(number)=>{
 
 function initMap(x,y) {
   const map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 23.4033, lng: 87.5484 },
+    center: { lat: x, lng: y },
     zoom: 15,
   });
 
